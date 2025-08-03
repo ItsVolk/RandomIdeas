@@ -1,0 +1,1644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #1e1e1e</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>1281</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>3</number>
+    </property>
+    <widget class="QWidget" name="menu_page">
+     <widget class="QFrame" name="sidebar_frame_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>661</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #2c2c2c</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>170</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color: #b71c1c;
+    color: #1e1e1e;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Menu</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>270</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Random Ideas</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>370</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Favourite</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>470</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Create Ideas</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>570</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Settings</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="title_label_3">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>80</y>
+        <width>381</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 72pt &quot;Script MT Bold&quot;;
+color: #e0e0e0;</string>
+      </property>
+      <property name="text">
+       <string>Welcome!</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="makeIdeas_pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>290</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #c62828;
+    color: #1e1e1e;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+}</string>
+      </property>
+      <property name="text">
+       <string>Sign up</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="makeIdeas_pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>490</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #c62828;
+    color: #1e1e1e;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+}</string>
+      </property>
+      <property name="text">
+       <string>Sign in</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="footer_label_4">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>650</y>
+        <width>131</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: 	#b0b0b0</string>
+      </property>
+      <property name="text">
+       <string>© Made by You 🐦‍🔥</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>230</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Cascadia Code&quot;;
+color: #b0b0b0;</string>
+      </property>
+      <property name="text">
+       <string>A new face?</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>430</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Cascadia Code&quot;;
+color: #b0b0b0;</string>
+      </property>
+      <property name="text">
+       <string>Already joined?</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="randomideas_page">
+     <widget class="QPushButton" name="makeIdeas_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>320</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #c62828;
+    color: #1e1e1e;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+}</string>
+      </property>
+      <property name="text">
+       <string>Random</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="saveIdeas_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>320</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #c62828;
+    color: #1e1e1e;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+}</string>
+      </property>
+      <property name="text">
+       <string>Save</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="result_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>440</y>
+        <width>541</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #2c2c2c;
+color: 	#b0b0b0;
+border-radius: 4px</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="footer_label">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>650</y>
+        <width>131</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: 	#b0b0b0</string>
+      </property>
+      <property name="text">
+       <string>© Made by You 🐦‍🔥</string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="sidebar_frame">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>661</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #2c2c2c</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>170</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+    color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Menu</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>270</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #b71c1c;
+    color: #1e1e1e;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Random Ideas</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>370</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Favourite</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>470</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+    color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Create Ideas</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>570</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Settings</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="title_label">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>0</y>
+        <width>561</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 69pt &quot;Script MT Bold&quot;;
+color: #e0e0e0;</string>
+      </property>
+      <property name="text">
+       <string>Random Ideas</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>130</y>
+        <width>541</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="topic_label">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: 	#b0b0b0</string>
+           </property>
+           <property name="text">
+            <string>Topic:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="topic_comboBox">
+           <property name="styleSheet">
+            <string notr="true">background-color: #2c2c2c;
+border-radius: 4px</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="level_label">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: 	#b0b0b0</string>
+           </property>
+           <property name="text">
+            <string>Level:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="level_comboBox">
+           <property name="styleSheet">
+            <string notr="true">background-color: #2c2c2c;
+border-radius: 4px</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="favourite_page">
+     <widget class="QFrame" name="sidebar_frame_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>661</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #2c2c2c</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>170</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Menu</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_17">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>270</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Random Ideas</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_18">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>370</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #b71c1c;
+    color: #1e1e1e;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Favourite</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_19">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>470</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Create Ideas</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_20">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>570</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Settings</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>290</y>
+        <width>901</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>899</width>
+         <height>339</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="title_label_4">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>0</y>
+        <width>561</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 69pt &quot;Script MT Bold&quot;;
+color: #e0e0e0;</string>
+      </property>
+      <property name="text">
+       <string>     Favourite</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>130</y>
+        <width>541</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QLabel" name="topic_label_3">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: 	#b0b0b0</string>
+           </property>
+           <property name="text">
+            <string>Topic:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="topic_comboBox_3">
+           <property name="styleSheet">
+            <string notr="true">background-color: #2c2c2c;
+border-radius: 4px</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <widget class="QLabel" name="level_label_3">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: 	#b0b0b0</string>
+           </property>
+           <property name="text">
+            <string>Level:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="level_comboBox_3">
+           <property name="styleSheet">
+            <string notr="true">background-color: #2c2c2c;
+border-radius: 4px</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="footer_label_3">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>650</y>
+        <width>131</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: 	#b0b0b0</string>
+      </property>
+      <property name="text">
+       <string>© Made by You 🐦‍🔥</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="createideas_page">
+     <widget class="QFrame" name="sidebar_frame_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>661</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #2c2c2c</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>170</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Menu</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>270</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Random Ideas</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>370</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Favourite</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>470</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #b71c1c;
+    color: #1e1e1e;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Create Ideas</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>570</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Settings</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="title_label_2">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>0</y>
+        <width>561</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 69pt &quot;Script MT Bold&quot;;
+color: #e0e0e0;</string>
+      </property>
+      <property name="text">
+       <string>  Create Ideas</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="makeIdeas_pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>550</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #c62828;
+    color: #1e1e1e;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+}</string>
+      </property>
+      <property name="text">
+       <string>Create</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>130</y>
+        <width>541</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="topic_label_2">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: 	#b0b0b0</string>
+           </property>
+           <property name="text">
+            <string>Topic:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="topic_comboBox_2">
+           <property name="styleSheet">
+            <string notr="true">background-color: #2c2c2c;
+border-radius: 4px</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="level_label_2">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: 	#b0b0b0</string>
+           </property>
+           <property name="text">
+            <string>Level:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="level_comboBox_2">
+           <property name="styleSheet">
+            <string notr="true">background-color: #2c2c2c;
+border-radius: 4px</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLineEdit" name="result_lineEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>320</y>
+        <width>541</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #2c2c2c;
+color: 	#b0b0b0;
+border-radius: 4px</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="footer_label_2">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>650</y>
+        <width>131</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: 	#b0b0b0</string>
+      </property>
+      <property name="text">
+       <string>© Made by You 🐦‍🔥</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page">
+     <widget class="QFrame" name="sidebar_frame_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>661</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #2c2c2c</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="pushButton_21">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>170</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Menu</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_22">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>270</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Random Ideas</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_23">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>370</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Favourite</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_24">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>470</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+    color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Create Ideas</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_25">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>570</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+	color: #1e1e1e;
+}
+
+QPushButton:checked {
+	 background-color: #b71c1c;
+}</string>
+       </property>
+       <property name="text">
+        <string>Settings</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="title_label_5">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>0</y>
+        <width>561</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 69pt &quot;Script MT Bold&quot;;
+color: #e0e0e0;</string>
+      </property>
+      <property name="text">
+       <string>      Settings</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
